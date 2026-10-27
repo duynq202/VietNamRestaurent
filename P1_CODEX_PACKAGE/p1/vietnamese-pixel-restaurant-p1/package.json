@@ -1,0 +1,17 @@
+{
+  "name": "vietnamese-pixel-restaurant-p1",
+  "private": true,
+  "version": "0.1.1",
+  "type": "module",
+  "description": "P1 revision: full-screen front-view pixel restaurant with in-game HUD (mock only)",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && node scripts/bundle-demo.mjs",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "check": "npm run typecheck && npm run test"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

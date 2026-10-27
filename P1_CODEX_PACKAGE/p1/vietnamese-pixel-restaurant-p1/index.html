@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no" />
+  <meta name="theme-color" content="#382820" />
+  <meta name="description" content="Quán Cơm Nhà — prototype mobile web, nhà hàng pixel Việt Nam." />
+  <title>Quán Cơm Nhà • P1 REVISION</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script type="module" src="./dist/main.js"></script>
+</head>
+<body>
+  <main class="game-shell" aria-label="Màn chơi Quán Cơm Nhà">
+    <canvas id="restaurant-canvas" aria-label="Quán ăn Việt Nam góc nhìn thẳng, sàn gạch chữ nhật, quầy phục vụ ở phía trên, khách và bàn ghế ở giữa nhà hàng" role="img">Trình duyệt của bạn cần hỗ trợ Canvas.</canvas>
+    <div class="scene-shade" aria-hidden="true"></div>
+
+    <!-- LEFT CORRIDOR: deliberately empty for future event buttons. -->
+    <div class="reserved-events" aria-hidden="true"></div>
+
+    <div class="service-hud" aria-label="Thông tin phục vụ">
+      <div class="service-symbol" aria-hidden="true">🍽️</div>
+      <div class="service-copy"><span class="microtext">ĐANG PHỤC VỤ</span><strong><span id="capacity">2</span> chỗ</strong></div>
+      <div class="service-divider" aria-hidden="true"></div>
+      <div class="service-copy"><span class="microtext">THU NHẬP</span><strong>+<span id="rate">4</span> <small>xu/giây</small></strong></div>
+    </div>
+
+    <div class="player-hud" aria-label="Thông tin người chơi và tiền demo">
+      <div class="player-top">
+        <div class="avatar" aria-hidden="true"><span>👩🏻‍🍳</span></div>
+        <div class="player-details"><span>CHỦ QUÁN</span><strong>Đầu Bếp Nhỏ</strong><small>LV. 1 <em>DEMO</em></small></div>
+      </div>
+      <div class="coin-pill"><span class="coin-icon" aria-hidden="true">✦</span><span class="coin-copy"><small>XU GIẢ LẬP</small><strong id="coins">680</strong></span><span class="coin-plus" aria-hidden="true">+</span></div>
+    </div>
+
+    <nav class="game-actions" aria-label="Các chức năng trong màn chơi">
+      <button type="button" class="action-btn" data-panel="upgrades" aria-haspopup="dialog" aria-controls="feature-dialog" aria-expanded="false"><span class="action-icon" aria-hidden="true">🔨</span><span>Nâng cấp</span></button>
+      <button type="button" class="action-btn" data-panel="dishes" aria-haspopup="dialog" aria-controls="feature-dialog" aria-expanded="false"><span class="action-icon" aria-hidden="true">🍜</span><span>Thực đơn</span></button>
+      <button type="button" class="action-btn" data-panel="about" aria-haspopup="dialog" aria-controls="feature-dialog" aria-expanded="false"><span class="action-icon" aria-hidden="true">⚙️</span><span>Thông tin</span></button>
+    </nav>
+
+    <div class="bottom-hud"><span class="mock-pill"><span class="status-light"></span> MÔ PHỎNG TỰ ĐỘNG</span><span class="earned-pill">Đã kiếm: <strong><span id="earning">0</span> xu</strong></span></div>
+
+    <div id="panel-backdrop" class="panel-backdrop" hidden></div>
+    <section id="feature-dialog" class="feature-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title" tabindex="-1" hidden>
+      <header class="dialog-header"><div><span class="dialog-eyebrow">QUÁN CƠM NHÀ • P1 DEMO</span><h1 id="dialog-title">Nâng cấp nhà hàng</h1></div><button id="close-panel" class="close-btn" type="button" aria-label="Đóng bảng chức năng">✕</button></header>
+      <div id="detail-panel" class="detail-panel"></div>
+      <p class="panel-disclaimer">Tiền và tiến trình chỉ là giả lập; tải lại trang sẽ đặt lại dữ liệu.</p>
+    </section>
+    <div id="toast" role="status" aria-live="polite" aria-atomic="true" class="toast"></div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "Vietnamese Pixel Restaurant P1 Revision approved Codex handoff",
+  "status": "P1 approved; P2 design only, no programming authorization",
+  "source_zip_sha256": "3c8e25b617ede82c00e5246387da59ddb7c1055905b22182889f9c2102cf9346",
+  "standalone_demo_sha256": "8544f576dceac2acf0985ec0e163987fb71b631699c153b90813f02f77115aea",
+  "files_in_source_zip": [
+    "vietnamese-pixel-restaurant-p1/.gitignore",
+    "vietnamese-pixel-restaurant-p1/PLAY_DEMO.html",
+    "vietnamese-pixel-restaurant-p1/PROJECT_STATUS.md",
+    "vietnamese-pixel-restaurant-p1/README.md",
+    "vietnamese-pixel-restaurant-p1/dist/demo-model.js",
+    "vietnamese-pixel-restaurant-p1/dist/main.js",
+    "vietnamese-pixel-restaurant-p1/dist/scene.js",
+    "vietnamese-pixel-restaurant-p1/index.html",
+    "vietnamese-pixel-restaurant-p1/package.json",
+    "vietnamese-pixel-restaurant-p1/scripts/bundle-demo.mjs",
+    "vietnamese-pixel-restaurant-p1/scripts/server.mjs",
+    "vietnamese-pixel-restaurant-p1/src/demo-model.ts",
+    "vietnamese-pixel-restaurant-p1/src/main.ts",
+    "vietnamese-pixel-restaurant-p1/src/scene.ts",
+    "vietnamese-pixel-restaurant-p1/styles.css",
+    "vietnamese-pixel-restaurant-p1/tests/demo-model.test.mjs",
+    "vietnamese-pixel-restaurant-p1/tsconfig.json",
+    "vietnamese-pixel-restaurant-p1/docs/preview-mobile.png",
+    "vietnamese-pixel-restaurant-p1/docs/preview-upgrades.png"
+  ]
+}
