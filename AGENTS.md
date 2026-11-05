@@ -1,9 +1,9 @@
 # Codex operating rules — VietNamRestaurent
 
-Read README.md, docs/CODEX_MASTER_PROMPT.md, docs/OPEN_DECISIONS.md, docs/FIRST_TASK.md before acting.
+Read README.md, docs/CODEX_MASTER_PROMPT.md, docs/OPEN_DECISIONS.md, docs/FIRST_TASK.md, docs/DECISION_LOG.md, docs/APPROVED_TABLES.md and docs/CONFLICTS_AND_STALE_ITEMS.md before acting.
 
 ## Hard gates
-- P1 prototype is APPROVED in ChatGPT, but its complete source is NOT supplied here. Never invent missing P1 code or declare it migrated. Ask for the original artifact if necessary.
+- P1 prototype is APPROVED in ChatGPT. [Update 2026-11-05: its source is now in `P1_CODEX_PACKAGE/`; tests 6/6 pass on committed `dist/`.] Never invent missing P1 code. Ask for the original artifact if something is missing.
 - P2 is PRE-CODING DISCUSSION ONLY. No implementation, migration, dependency installation, scaffold, database creation, commits of game code, deployment, or tests modifying code unless user explicitly approves P2 coding.
 - User works one subdecision at a time. Present one proposal and stop for APPROVED / REVISION (or equivalent explicit approval). Acknowledgment is not approval of unrelated items.
 - Never silently turn proposals into locked specs. Preserve approved and pending decisions separately.
