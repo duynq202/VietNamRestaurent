@@ -1,5 +1,7 @@
 # First task for Codex — discussion only
 
+> **Cập nhật 2026-11-05:** ChatGPT đã đưa một đề xuất H-45.2.1 (ba cấu hình A/B/C, khuyến nghị A; xem `docs/OPEN_DECISIONS.md` mục 1) nhưng người dùng chưa duyệt. Hệ số sao ở 1★ đang mâu thuẫn (0,70× theo #82, 0,75× trong tài liệu này) — xem `docs/CONFLICTS_AND_STALE_ITEMS.md` C-01. Vẫn chỉ thảo luận, không viết code.
+
 You are continuing the Vietnamese Pixel Restaurant P2 design conversation from ChatGPT.
 
 **Do not write code, edit game files or create a new scaffold.** First summarize your understanding of the locked constraints relevant to H-45.2.1, then propose **one** balanced arrival/spawn calibration for user review:

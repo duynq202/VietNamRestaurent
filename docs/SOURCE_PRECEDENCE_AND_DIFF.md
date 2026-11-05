@@ -2,7 +2,7 @@
 
 Original source uploaded in ChatGPT: `Dac_ta_phan_tich_thiet_ke_game_nha_hang_pixel_Viet_Nam_v1.0.pdf`, 15 pages, dated **2026-10-24**, original file SHA256 `b4b27335a62bafc2017afd15a673c36eab9b7f3e4f922c97248e896a468be5ef`.
 
-**IMPORTANT:** Original PDF has NOT been committed as a binary file to this repo. The user should upload the exact PDF to `docs/reference/SRS_v1_2026-10-24.pdf` using GitHub's Add file → Upload files (or Codex workspace transfer), preserving its original bytes. This document provides documented conflicts but not a substitute for the source.
+**[Cập nhật 2026-11-05: PDF hiện đã có trong `docs/` và SHA256 khớp bản gốc; đoạn dưới đây là ghi chú cũ.]** **IMPORTANT:** Original PDF has NOT been committed as a binary file to this repo. The user should upload the exact PDF to `docs/reference/SRS_v1_2026-10-24.pdf` using GitHub's Add file → Upload files (or Codex workspace transfer), preserving its original bytes. This document provides documented conflicts but not a substitute for the source.
 
 ## Precedence
 1. Explicit later decisions approved by the user (P2 design conversation).
